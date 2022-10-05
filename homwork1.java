@@ -17,18 +17,19 @@ public class homwork1 {
     long  year = 360;
     year = day / year;
 
+             long secundyear = (60*60*24*360);
 
         System.out.println(  minut  +    "сколько минут прожито ");
         System.out.println( chas  +   " ссколько часов прожито" );
         System.out.println(  day   +   " сколько дней прожито ");
-                System.out.println( year  +   "сколько лет прожито ");
+                System.out.println( year  +   " сколько лет прожито ");
+        System.out.println(secund / secundyear); System.out.println(" или сколько лет прожито ");
 
     int time = 4 ;
     boolean rigt = time > 5 ;
-
     boolean  name = false ;
     boolean  asterix = true ;
-    boolean   answer = rigt || name ;
+    boolean   answer = rigt || asterix ;
 
 
         System.out.println(answer );
